@@ -62,12 +62,12 @@ jQuery(document).ready(function($) {
         }
     );
     
-    /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    new GitHubCalendar("#github-graph", "IonicaBizau");
+    /* Github Calendar - https://github.com/moexx399/github-calendar */
+    new GitHubCalendar("#github-graph", "moexx399");
     
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "mdo", selector: "#ghfeed" });
+    GitHubActivity.feed({ username: "moexx399", selector: "#ghfeed" });
 
 
 });
