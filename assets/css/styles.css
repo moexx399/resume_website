@@ -9,7 +9,7 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #DAE3E7;
+  background: #6a6d6e;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #3AAA64;
+  color: #3a45aa;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -32,7 +32,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: #5f6b77;
-  color: #2d844e;
+  color: #2d5084;
 }
 
 a:focus {
@@ -59,17 +59,21 @@ a:focus {
   color: #fff;
 }
 
+.svg-inline--fa.fa-paper-plane {
+  color: #fff;
+}
+
 a.btn-cta-primary, .btn-cta-primary {
-  background: #54ba4e;
-  border: 1px solid #54ba4e;
+  background: #535fa5;
+  border: 1px solid #535fa5;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 a.btn-cta-primary:hover, .btn-cta-primary:hover {
-  background: #49ac43;
-  border: 1px solid #49ac43;
+  background: #6675cb;
+  border: 1px solid #6675cb;
   color: #fff;
 }
 
@@ -92,7 +96,7 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
 }
 
 .badge-theme {
-  background: #3AAA64;
+  background: #6675cb;
   font-size: 12px;
   color: #fff;
   -webkit-border-radius: 2px;
@@ -186,6 +190,7 @@ a.dotted-link:hover {
 .section .section-inner {
   background: #fff;
   padding: 30px;
+  border-radius: 10px;
 }
 
 .section .heading {
@@ -265,7 +270,7 @@ a.dotted-link:hover {
 }
 
 .latest .has-ribbon .text {
-  background: #3AAA64;
+  background: #6675cb;
   color: #fff;
 }
 
@@ -445,7 +450,7 @@ a.dotted-link:hover {
 
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #6675cb;
 }
 
 .skills .svg-inline--fa {
@@ -466,7 +471,7 @@ a.dotted-link:hover {
 .testimonials .item .quote {
   color: #666;
   font-size: 16px;
-  border-left: 5px solid #9fdeb7;
+  border-left: 5px solid #6675cb;
   padding: 5px 15px;
   margin-bottom: 15px;
 }
@@ -476,7 +481,7 @@ a.dotted-link:hover {
 }
 
 .testimonials .item .quote .svg-inline--fa {
-  color: #79d19a;
+  color: #6675cb;
   margin-right: 15px;
 }
 
@@ -522,52 +527,6 @@ a.dotted-link:hover {
   font-weight: 500;
 }
 
-/* Language Section */
-.languages .item {
-  margin-bottom: 15px;
-}
-
-.languages .item .title {
-  color: #778492;
-}
-
-.languages .item .level {
-  color: #999;
-}
-
-.languages .item:last-child {
-  margin-bottom: 0;
-}
-
-.languages .item .svg-inline--fa {
-  color: #79d19a;
-}
-
-/* Blog Section */
-.blog .item {
-  margin-bottom: 30px;
-}
-
-.blog .item .title {
-  font-size: 18px;
-  line-height: 1.3;
-}
-
-.blog .item .title a {
-  color: #778492;
-}
-
-.blog .item .title a:hover {
-  color: #5f6b77;
-}
-
-.blog .item p {
-  margin-bottom: 5px;
-}
-
-.blog .item:last-child {
-  margin-bottom: 0;
-}
 
 /* List section */
 .list ul li {
@@ -635,9 +594,6 @@ a.dotted-link:hover {
   color: #fff;
 }
 
-.footer .fa-heart {
-  color: #fb866a;
-}
 
 @media (max-width: 767.98px) {
   .header {
