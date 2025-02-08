@@ -37,10 +37,10 @@
                 </ul> 
                 <ul class="list-inline">
                     <li class="list-inline-item"><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span> Minnesota </li>
-                    <li class="list-inline-item"><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#"> brandonmoe.personal@gmail.com</a></li>
+                    <li class="list-inline-item"><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#"> brandon@brandon-moe.com</a></li>
                 </ul> 
             </div><!--//profile-->
-            <a class="btn btn-cta-primary float-right" onClick="parent.location='mailto:brandonmoe.personal@gmail.com'" color=white;><i class="fas fa-paper-plane"></i> <font color="white">Contact Me</font></a>              
+            <a class="btn btn-cta-primary float-right" onClick="parent.location='mailto:brandon@brandon-moe.com'" color=white;><i class="fas fa-paper-plane"></i> <font color="white">Contact Me</font></a>              
         </div><!--//container-->
     </header><!--//header-->
     
@@ -64,11 +64,11 @@
                             <div class="item">
                                 <h3 class="title">Principle Security Engineer  - <span class="place"><a target="_blank" href="https://www.usbank.com/index.html">U.S. Bank</a></span> <span class="year">(August 2023 to Present)</span></h3>
                                 <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <!-- <li>OS conversion</li>
+                                    <li>Vault policy conversion</li>
+                                    <li>ad engine to ldap engine migration</li>
+                                    <li>secrets operator</li>
+                                    <li></li> -->
                                 </ul>
                                 <h3 class="title">Senior Information Security Engineer  - <span class="place"><a target="_blank" href="https://www.usbank.com/index.html">U.S. Bank</a></span> <span class="year">(August 2022 to August 2023)</span></h3>
                                 <ul>
@@ -78,14 +78,14 @@
                                     <li>Independently complete migration of HashiCorp Vault from Consul backend to Raft backend while upgrading OS from RHEL 7 to RHEL 8. </li>
                                     <li>Introduced automation to enforce IAM policy and standards through detective controls. </li>
                                     <li>Created dual local environments for developers utilizing windows, linux, and docker architecture. </li>
-                                    <li>cert-manager</li>
-                                    <li>kube cluster onboarding</li>
+                                    <li>Integrated cert-manager to Venafi using HashiCorp Vaults PKI engine. Achieving this for 600+ clusters required automated onboarding of Kubernetes authentication for Vault cluster, policy provisioning in Venafi, and PKI role configuration at cluster buildtime through custom developed API.</li>
+                                    <li>Developed self service onboarding for vault customers for Kubernetes authentication workflow in Vault while also providing infrastructure team API endpoints for onboarding new Kubernetes clusters at buildtime.</li>
                                 </ul>
                                 <h3 class="title">Information Security Engineer  - <span class="place"><a target="_blank" href="https://www.usbank.com/index.html">U.S. Bank</a></span> <span class="year">(January 2021 to August 2022)</span></h3>
                                 <ul>
                                     <li>Matured Active Directory account provisioning to be self-service increasing consistence while decreasing request time form two weeks to five minutes. Integrated Django, Flask, Apache Airflow, HashiCorp Vault, Power Automate, and Microsoft Teams utilizing Python, RESTful APIs, and LDAP.</li>
                                     <li>Scripted Active Directory data extraction to MSSQL across 8 production domains to facilitate reporting and better provide visibility into our environment for audit and remediation efforts. </li>
-                                    <li>Automated reporting for Oracle Identity Manger through Google Cloud Platform's GKE. Enabled operation teams to run 250+ scheduled reports saving hundreds of hours monthly. </li>
+                                    <li>Automated reporting for Oracle Identity Manger and SailPoint IdentityIQ through Google Cloud Platform's GKE. Enabled operation teams to run 250+ scheduled reports saving hundreds of hours monthly. </li>
                                     <li>Developed a self-service onboarding solution for engineers to integrate HashiCorp Vault with Kubernetes and GitLab authentication.</li>
                                     <li>Implemented monitoring and cleanup on HashiCorp Vault utilizing Grafana, Prometheus, Splunk, and Telegraf for time series data collection. Using data and active queries, modifications were made to HashiCorp Vault to achieve security goals set by management. </li>
                                     <li>Lead successful conversion effort from legacy software to Apache Airflow. Doing so enabled software to horizontally scale increasing uptime 7% to above 99.9% while improving runtime of tasks.</li>
@@ -129,6 +129,28 @@
                                     <li>Present lectures to students teaching the fundamentals of robotics programming to advance motion techniques.</li>
                                 </ul>
                             </div><!--//item-->
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Home Lab</h2>
+                        <div class="content">
+                            <ul>
+                                <li>Nginx Proxy Manager: Used for traffic routing from cloudflare</li>
+                                <li>Resume Website: HTML, CSS, and JavaScript based site served by Nginx which you are currently on!</li>
+                                <li>HomeAssistant: Home automation platform</li>
+                                <li>VaultWarden: RUST based implementation of BitWarden that is self hosted for human credential management</li>
+                                <li>Frigate: NRV software for IP based cameras</li>
+                                <li>PiHole: Network level for ad blocking </li>
+                                <li>TailScale: Self hosted VPN for remote network access</li>
+                                <li>rtlmr2mqtt: Read 990mhz communication (utility information) and broadcast those packets to a mqtt broker</li>
+                                <li>K3 cluster: A lightweight implementation of kubernetes which I have clustered over 3 raspberry pi 5's</li>
+                                <li>HashiCorp Vault: Credential management application for software</li>
+                                <li>Networking: All networking is done with a layer 2 switch with vlan isolation base on component</li>
+                                <li>TrueNas: Coming Soon!</li>
+                            </ul>
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
@@ -204,22 +226,6 @@
                     </div><!--//section-inner-->                 
                 </aside><!--//section-->
                 
-                <aside class="testimonials aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Testimonials</h2>
-                        <div class="content">
-                            <div class="item">
-                                <blockquote class="quote">                                  
-                                    <p><i class="fas fa-quote-left"></i>I first met Brandon when he was a member of an FRC robotics team that I was coaching. Since then I have worked with Brandon Moe for four years. He is one of the most driven individuals I have ever worked with. When you assign a project and a deadline to Brandon, the job gets done. His knowledge of computers and programing is way beyond his years. If Brandon doesn't know the answer to a problem, he digs in and does the research until he finds the answer (no spoon feeding or hand holding required). I would personally recommend Brandon to any future employer.</p>
-                                </blockquote>                
-                                <p class="source"><span class="name">Todd Bolzer</span><br /><span class="title">Norwesco</span></p>                                                             
-                            </div><!--//item-->
-                            
-                            <p><a class="more-link" href="https://www.linkedin.com/in/brandonamoe/" target="_blank"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
-                            
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
                 
                 <aside class="education aside section">
                     <div class="section-inner">
@@ -242,16 +248,34 @@
                         <h2 class="heading">Certifications</h2>
                         <div class="content">
                             <div class="item">                      
-                                <h3 class="title"><i class="fas fa-award"></i> Vault Operations Professional</h3>
+                                <h3 class="title"><i class="fas fa-award"></i> <a target="_blank" href="https://developer.hashicorp.com/certifications/security-automation">Vault Operations Professional</a></h3>
                                 <h4 class="university">HashiCorp Certified <span class="year">2025</span></h4>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title"><i class="fas fa-award"></i> Vault Associate (003)</h3>
+                                <h3 class="title"><i class="fas fa-award"></i> <a target="_blank" href="https://developer.hashicorp.com/certifications/security-automation">Vault Associate (003)</a></h3>
                                 <h4 class="university">HashiCorp Certified <span class="year">2025</span></h4>
                             </div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
+
+                <aside class="testimonials aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">                                  
+                                    <p><i class="fas fa-quote-left"></i>I first met Brandon when he was a member of an FRC robotics team that I was coaching. Since then I have worked with Brandon Moe for four years. He is one of the most driven individuals I have ever worked with. When you assign a project and a deadline to Brandon, the job gets done. His knowledge of computers and programming is way beyond his years. If Brandon doesn't know the answer to a problem, he digs in and does the research until he finds the answer (no spoon feeding or hand holding required). I would personally recommend Brandon to any future employer.</p>
+                                </blockquote>                
+                                <p class="source"><span class="name">Todd Bolzer</span><br /><span class="title">Norwesco</span></p>                                                             
+                            </div><!--//item-->
+                            
+                            <p><a class="more-link" href="https://www.linkedin.com/in/brandonamoe/" target="_blank"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
+                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
             </div><!--//secondary-->    
         </div><!--//row-->
     </div><!--//masonry-->
