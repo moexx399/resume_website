@@ -527,6 +527,15 @@ a.dotted-link:hover {
   font-weight: 500;
 }
 
+/* Certifications section */
+.certifications .item {
+  margin-bottom: 30px;
+}
+
+.certifications .item:last-child {
+  margin-bottom: 0;
+}
+
 
 /* List section */
 .list ul li {
