@@ -1,49 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Brandon A. Moe</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/images/favicon.png">  
-    
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet'
+        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
     <!-- FontAwesome JS -->
     <script defer src="assets/js/fontawesome_all.js"></script>
-    
+
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    
-    <!-- Theme CSS -->  
+
+    <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 
-    
-</head> 
+
+</head>
 
 <body>
-    <!-- ******HEADER****** --> 
+    <!-- ******HEADER****** -->
     <header class="header">
-        <div class="container clearfix">                       
-            <img class="profile-image img-fluid float-left" src="assets/images/Headshot_Circle.png" alt="Brandon A. Moe" />
+        <div class="container clearfix">
+            <img class="profile-image img-fluid float-left" src="assets/images/Headshot_Circle.png"
+                alt="Brandon A. Moe" />
             <div class="profile-content float-left">
                 <h1 class="name">Brandon A. Moe</h1>
-                <h2 class="desc">Principle Software Engineer</h2>   
+                <h2 class="desc">Principle Software Engineer</h2>
                 <ul class="social list-inline">
-                    <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/brandonamoe/"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li class="list-inline-item"><a target="_blank" href="https://github.com/moexx399/"><i class="fab fa-github-alt"></i></a></li>                   
-                </ul> 
+                    <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/brandonamoe/"><i
+                                class="fab fa-linkedin-in"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://github.com/moexx399/"><i
+                                class="fab fa-github-alt"></i></a></li>
+                </ul>
                 <ul class="list-inline">
-                    <li class="list-inline-item"><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span> Minnesota </li>
-                    <li class="list-inline-item"><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#"> brandon@brandon-moe.com</a></li>
-                </ul> 
+                    <li class="list-inline-item"><i class="fas fa-map-marker-alt"></i><span
+                            class="sr-only">Location:</span> Minnesota </li>
+                    <li class="list-inline-item"><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a
+                            href="#"> brandon@brandon-moe.com</a></li>
+                </ul>
             </div><!--//profile-->
-            <a class="btn btn-cta-primary float-right" onClick="parent.location='mailto:brandon@brandon-moe.com'" color=white;><i class="fas fa-paper-plane"></i> <font color="white">Contact Me</font></a>              
+            <a class="btn btn-cta-primary float-right" onClick="parent.location='mailto:brandon@brandon-moe.com'"
+                color=white;><i class="fas fa-paper-plane"></i>
+                <font color="white">Contact Me</font>
+            </a>
         </div><!--//container-->
     </header><!--//header-->
-    
+
     <div class="container sections-wrapper">
         <div class="row">
             <div class="primary col-lg-8 col-12">
@@ -51,59 +61,109 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>Principle Software Engineer eager to learn and develop professionally. Knowledge in web development and automation. My goal is to streamline repetitive tasks while giving the end user a great experience. Outside of work I enjoy the outdoors, tinkering with my homelab, and golfing.</p>
-                         
+                            <p>Principle Software Engineer eager to learn and develop professionally. Knowledge in web
+                                development and automation. My goal is to streamline repetitive tasks while giving the
+                                end user a great experience. Outside of work I enjoy the outdoors, tinkering with my
+                                homelab, and golfing.</p>
+
                         </div><!--//content-->
-                    </div><!--//section-inner-->                 
+                    </div><!--//section-inner-->
                 </section><!--//section-->
-                   
+
                 <section class="experience section">
                     <div class="section-inner">
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Principle Security Engineer  - <span class="place"><a target="_blank" href="https://www.usbank.com/index.html">U.S. Bank</a></span> <span class="year">(August 2023 to Present)</span></h3>
+                                <h3 class="title">Principle Security Engineer - <span class="place"><a target="_blank"
+                                            href="https://www.usbank.com/index.html">U.S. Bank</a></span> <span
+                                        class="year">(August 2023 to Present)</span></h3>
                                 <ul>
-                                    <!-- <li>OS conversion</li>
-                                    <li>Vault policy conversion</li>
-                                    <li>ad engine to ldap engine migration</li>
-                                    <li>secrets operator</li>
-                                    <li></li> -->
+                                    <li>Drove the HashiCorp Vault initiative, establishing best practices that improved security protocol adherence and created a more resilient infrastructure supporting over 10,000 enterprise users in the organization.</li>
+                                    <li>Enabled Azure Authentication and Database Secrets Engines (PostgreSQL, MySQL, MariaDB, AzureSQL, MSSQL, RDS PostgreSQL) in HashiCorp Vault, implementing self-service on-boarding to streamline secure access management. </li>
+                                    <li>Designed and implemented a scalable solution for mass distribution of internal CA public keys, enabling application teams to automate trust store updates at build and runtime, enhancing security and efficiency.</li>
+                                    <li>Implemented pipeline and IaC for clustered PostgreSQL RDS instance, AWS DocumenetDB, AWS S3, and EKS cluster utilizing Teraform and GitLab CI.</li>
+                                    <li>Converted 21 Kubernetes file base deployment to helm chart deployment with high availability and event driven auto scaling across 3 region based clusters able to handle 1000+ concurrent tasks. </li>
+                                    <li>Migrated 13 CentOS 7 based containers after EOL to Debian decreasing image footprint by 50% while also decreasing CVE's by 97%.</li>
+                                    <li>Created 73 custom API endpoint for engineering teams to integrate with AD, HashiCorp Vault, Cyberark, and Access Management to outsource CRUD operations to platform teams while limiting capabilities and enforce controls as defined by the business.</li>
+                                    <li>Implemented inner source documentation platform with AI chat-bot to distill down vendor documentation while integrating business specific modifications and requirements to enhance customer experience.</li>
+                                    <li>Converted 32,000 untracked HashiCorp Vault policies created over 4 years to a set of standard policies controlled by source code and automatically updated by automation. This decreased policy and permission related incidents from 42% of volume to 0%. </li>
                                 </ul>
-                                <h3 class="title">Senior Information Security Engineer  - <span class="place"><a target="_blank" href="https://www.usbank.com/index.html">U.S. Bank</a></span> <span class="year">(August 2022 to August 2023)</span></h3>
+                                <h3 class="title">Senior Information Security Engineer - <span class="place"><a
+                                            target="_blank" href="https://www.usbank.com/index.html">U.S.
+                                            Bank</a></span> <span class="year">(August 2022 to August 2023)</span></h3>
                                 <ul>
-                                    <li>Technical Owner of HashiCorp Vault at US Bank leading direction and feature development for all development teams.</li>
-                                    <li>Developed golang desktop application for operations teams to perform critical IAM functionality in cloud integrated with HashiCorp Vault.</li>
-                                    <li>Create secret zero agent for On-PREM Linux and Windows VM's to connect to Hashicorp Vault.</li>
-                                    <li>Independently complete migration of HashiCorp Vault from Consul backend to Raft backend while upgrading OS from RHEL 7 to RHEL 8. </li>
-                                    <li>Introduced automation to enforce IAM policy and standards through detective controls. </li>
-                                    <li>Created dual local environments for developers utilizing windows, linux, and docker architecture. </li>
-                                    <li>Integrated cert-manager to Venafi using HashiCorp Vaults PKI engine. Achieving this for 600+ clusters required automated onboarding of Kubernetes authentication for Vault cluster, policy provisioning in Venafi, and PKI role configuration at cluster buildtime through custom developed API.</li>
-                                    <li>Developed self service onboarding for vault customers for Kubernetes authentication workflow in Vault while also providing infrastructure team API endpoints for onboarding new Kubernetes clusters at buildtime.</li>
+                                    <li>Technical Owner of HashiCorp Vault at US Bank leading direction and feature
+                                        development for all development teams.</li>
+                                    <li>Developed golang desktop application for operations teams to perform critical
+                                        IAM functionality in cloud integrated with HashiCorp Vault.</li>
+                                    <li>Create secret zero agent for On-PREM Linux and Windows VM's to connect to
+                                        Hashicorp Vault.</li>
+                                    <li>Independently complete migration of HashiCorp Vault from Consul backend to Raft
+                                        backend while upgrading OS from RHEL 7 to RHEL 8. </li>
+                                    <li>Introduced automation to enforce IAM policy and standards through detective
+                                        controls. </li>
+                                    <li>Created dual local environments for developers utilizing windows, linux, and
+                                        docker architecture. </li>
+                                    <li>Integrated cert-manager to Venafi using HashiCorp Vaults PKI engine. Achieving
+                                        this for 600+ clusters required automated onboarding of Kubernetes
+                                        authentication for Vault cluster, policy provisioning in Venafi, and PKI role
+                                        configuration at cluster buildtime through custom developed API.</li>
+                                    <li>Developed self service onboarding for vault customers for Kubernetes
+                                        authentication workflow in Vault while also providing infrastructure team API
+                                        endpoints for onboarding new Kubernetes clusters at build-time.</li>
                                 </ul>
-                                <h3 class="title">Information Security Engineer  - <span class="place"><a target="_blank" href="https://www.usbank.com/index.html">U.S. Bank</a></span> <span class="year">(January 2021 to August 2022)</span></h3>
+                                <h3 class="title">Information Security Engineer - <span class="place"><a target="_blank"
+                                            href="https://www.usbank.com/index.html">U.S. Bank</a></span> <span
+                                        class="year">(January 2021 to August 2022)</span></h3>
                                 <ul>
-                                    <li>Matured Active Directory account provisioning to be self-service increasing consistence while decreasing request time form two weeks to five minutes. Integrated Django, Flask, Apache Airflow, HashiCorp Vault, Power Automate, and Microsoft Teams utilizing Python, RESTful APIs, and LDAP.</li>
-                                    <li>Scripted Active Directory data extraction to MSSQL across 8 production domains to facilitate reporting and better provide visibility into our environment for audit and remediation efforts. </li>
-                                    <li>Automated reporting for Oracle Identity Manger and SailPoint IdentityIQ through Google Cloud Platform's GKE. Enabled operation teams to run 250+ scheduled reports saving hundreds of hours monthly. </li>
-                                    <li>Developed a self-service onboarding solution for engineers to integrate HashiCorp Vault with Kubernetes and GitLab authentication.</li>
-                                    <li>Implemented monitoring and cleanup on HashiCorp Vault utilizing Grafana, Prometheus, Splunk, and Telegraf for time series data collection. Using data and active queries, modifications were made to HashiCorp Vault to achieve security goals set by management. </li>
-                                    <li>Lead successful conversion effort from legacy software to Apache Airflow. Doing so enabled software to horizontally scale increasing uptime 7% to above 99.9% while improving runtime of tasks.</li>
+                                    <li>Matured Active Directory account provisioning to be self-service increasing
+                                        consistence while decreasing request time form two weeks to five minutes.
+                                        Integrated Django, Flask, Apache Airflow, HashiCorp Vault, Power Automate, and
+                                        Microsoft Teams utilizing Python, RESTful APIs, and LDAP.</li>
+                                    <li>Scripted Active Directory data extraction to MSSQL across 8 production domains
+                                        to facilitate reporting and better provide visibility into our environment for
+                                        audit and remediation efforts. </li>
+                                    <li>Automated reporting for Oracle Identity Manger and SailPoint IdentityIQ through
+                                        Google Cloud Platform's GKE. Enabled operation teams to run 250+ scheduled
+                                        reports saving hundreds of hours monthly. </li>
+                                    <li>Developed a self-service onboarding solution for engineers to integrate
+                                        HashiCorp Vault with Kubernetes and GitLab authentication.</li>
+                                    <li>Implemented monitoring and cleanup on HashiCorp Vault utilizing Grafana,
+                                        Prometheus, Splunk, and Telegraf for time series data collection. Using data and
+                                        active queries, modifications were made to HashiCorp Vault to achieve security
+                                        goals set by management. </li>
+                                    <li>Lead successful conversion effort from legacy software to Apache Airflow. Doing
+                                        so enabled software to horizontally scale increasing uptime 7% to above 99.9%
+                                        while improving runtime of tasks.</li>
                                 </ul>
-                                <h3 class="title">Information Security Engineer Intern  - <span class="place"><a target="_blank" href="https://www.usbank.com/index.html">U.S. Bank</a></span> <span class="year">(June 2020 to January 2021)</span></h3>
+                                <h3 class="title">Information Security Engineer Intern - <span class="place"><a
+                                            target="_blank" href="https://www.usbank.com/index.html">U.S.
+                                            Bank</a></span> <span class="year">(June 2020 to January 2021)</span></h3>
                                 <ul>
-                                    <li>Migrated Docker container formally treated as pets to cattle based containers with unit testing, vulnerability scanning, code quality scanning, and automated build processes. This decreased time to production by 95% while also stabilizing the environment. </li>
-                                    <li>Designed a local environment configuration using Docker to replicated production configuration on user's local machines for code development. This enabled developer to decrease time to production and enabled better local unit, application, and integration testing. </li>
+                                    <li>Migrated Docker container formally treated as pets to cattle based containers
+                                        with unit testing, vulnerability scanning, code quality scanning, and automated
+                                        build processes. This decreased time to production by 95% while also stabilizing
+                                        the environment. </li>
+                                    <li>Designed a local environment configuration using Docker to replicated production
+                                        configuration on user's local machines for code development. This enabled
+                                        developer to decrease time to production and enabled better local unit,
+                                        application, and integration testing. </li>
                                 </ul>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title">Enterprise DevOps Solutions Engineer Intern  - <span class="place"><a target="_blank" href="https://www.usbank.com/index.html">U.S. Bank</a></span> <span class="year">(June 2019 to June 2020)</span></h3>
+                                <h3 class="title">Enterprise DevOps Solutions Engineer Intern - <span class="place"><a
+                                            target="_blank" href="https://www.usbank.com/index.html">U.S.
+                                            Bank</a></span> <span class="year">(June 2019 to June 2020)</span></h3>
                                 <ul>
-                                    <li>Architected and designed a self-service web based on-boarding service to perform the most common CRUD requests to minimize manual provisioning work required by admins and optimize end user lifecycle in GitLab, SonarQube, Artifactory, Jenkins, and Jira.</li>
-                                    </ul>
+                                    <li>Architected and designed a self-service web based on-boarding service to perform
+                                        the most common CRUD requests to minimize manual provisioning work required by
+                                        admins and optimize end user lifecycle in GitLab, SonarQube, Artifactory,
+                                        Jenkins, and Jira.</li>
+                                </ul>
                             </div><!--//item-->
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
                 </section><!--//section-->
 
                 <section class="experience section">
@@ -111,26 +171,39 @@
                         <h2 class="heading">Volunteering</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Field Technical Advisor Assistant - <span class="place"><a target="_blank" href="https://www.firstinspires.org/">For Inspiration and Recognition of Science and Technology </a></span> <span class="year">(January 2021 to Present) </span></h3>
+                                <h3 class="title">Field Technical Advisor Assistant - <span class="place"><a
+                                            target="_blank" href="https://www.firstinspires.org/">For Inspiration and
+                                            Recognition of Science and Technology </a></span> <span
+                                        class="year">(January 2021 to Present) </span></h3>
                                 <ul>
-                                    <li>Responsible for keeping the FIRST Robotics Competition field running in accordance with FIRST requirements.</li>
+                                    <li>Responsible for keeping the FIRST Robotics Competition field running in
+                                        accordance with FIRST requirements.</li>
                                 </ul>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title">Control System Advisor - <span class="place"><a target="_blank" href="https://www.firstinspires.org/">For Inspiration and Recognition of Science and Technology </a></span> <span class="year">(January 2018 to Present) </span></h3>
+                                <h3 class="title">Control System Advisor - <span class="place"><a target="_blank"
+                                            href="https://www.firstinspires.org/">For Inspiration and Recognition of
+                                            Science and Technology </a></span> <span class="year">(January 2018 to
+                                        Present) </span></h3>
                                 <ul>
-                                    <li>Assists teams with Robot Control System-related issues. Language include C++, Java, LabVIEW, and Python.</li>
+                                    <li>Assists teams with Robot Control System-related issues. Language include C++,
+                                        Java, LabVIEW, and Python.</li>
                                 </ul>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title">Beta Tester and Lecturer - LabVIEW FRC - <span class="place"><a target="_blank" href="https://www.firstinspires.org/">For Inspiration and Recognition of Science and Technology </a></span> <span class="year">(June 2016 to Present) </span></h3>
+                                <h3 class="title">Beta Tester and Lecturer - LabVIEW FRC - <span class="place"><a
+                                            target="_blank" href="https://www.firstinspires.org/">For Inspiration and
+                                            Recognition of Science and Technology </a></span> <span class="year">(June
+                                        2016 to Present) </span></h3>
                                 <ul>
-                                    <li>Beta test the software coming out for the next season to find bugs and breaking changes.</li>
-                                    <li>Present lectures to students teaching the fundamentals of robotics programming to advance motion techniques.</li>
+                                    <li>Beta test the software coming out for the next season to find bugs and breaking
+                                        changes.</li>
+                                    <li>Present lectures to students teaching the fundamentals of robotics programming
+                                        to advance motion techniques.</li>
                                 </ul>
                             </div><!--//item-->
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
                 </section><!--//section-->
 
                 <section class="experience section">
@@ -139,20 +212,40 @@
                         <div class="content">
                             <ul>
                                 <li>Nginx Proxy Manager: Used for traffic routing from cloudflare</li>
-                                <li>Resume Website: HTML, CSS, and JavaScript based site served by Nginx which you are currently on!</li>
+                                <li>Resume Website: HTML, CSS, and JavaScript based site served by Nginx which you are
+                                    currently on!</li>
                                 <li>HomeAssistant: Home automation platform</li>
-                                <li>VaultWarden: RUST based implementation of BitWarden that is self hosted for human credential management</li>
+                                <li>VaultWarden: RUST based implementation of BitWarden that is self hosted for human
+                                    credential management</li>
                                 <li>Frigate: NRV software for IP based cameras</li>
                                 <li>PiHole: Network level for ad blocking </li>
                                 <li>TailScale: Self hosted VPN for remote network access</li>
-                                <li>rtlmr2mqtt: Read 990mhz communication (utility information) and broadcast those packets to a mqtt broker</li>
-                                <li>K3 cluster: A lightweight implementation of kubernetes which I have clustered over 3 raspberry pi 5's</li>
+                                <li>rtlmr2mqtt: Read 990mhz communication (utility information) and broadcast those
+                                    packets to a mqtt broker</li>
+                                <li>K3 cluster: A lightweight implementation of kubernetes which I have clustered over 3
+                                    raspberry pi 5's</li>
                                 <li>HashiCorp Vault: Credential management application for software</li>
-                                <li>Networking: All networking is done with a layer 2 switch with vlan isolation base on component</li>
+                                <li>Networking: All networking is done with a layer 2 switch with vlan isolation base on
+                                    component</li>
                                 <li>TrueNas: Coming Soon!</li>
                             </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Open Source Contributions</h2>
+                        <div class="content">
+                            <ul>
+                                <li><a target="_blank" href="https://github.com/cpapplefamily/freesy-arena">Freesy
+                                        Arena</a>: A web based application for managing FIRST Robotics Competitions.
+                                </li>
+                                <li><a target="_blank" href="https://github.com/hvac/hvac">HashiCorp Vault Python
+                                        Client</a>: Contributed to the python client for HashiCorp Vault. </li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
                 </section><!--//section-->
 
             </div><!--//primary-->
@@ -162,82 +255,105 @@
                         <h2 class="heading">Skills</h2>
                         <div class="content">
                             <p class="intro">
-                                Skill set includes frontend and backend development. Utilizing common DevOps pipeline tools for CI/CD throughout development. </p>
-                            
+                                Skill set includes frontend and backend development. Utilizing common DevOps pipeline
+                                tools for CI/CD throughout development. </p>
+
                             <div class="skillset">
-                               
+
                                 <div class="item">
-                                    <h3 class="level-title">HashiCorp Vault<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="HashiCorp Vault Administration and usage."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <h3 class="level-title">HashiCorp Vault<span class="level-label"
+                                            data-toggle="tooltip" data-placement="left" data-animation="true"
+                                            title="HashiCorp Vault Administration and usage."><i
+                                                class="fas fa-info-circle"></i>Pro</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="95%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
+                                        </div>
+                                    </div><!--//level-bar-->
                                 </div><!--//item-->
-                                
+
                                 <div class="item">
-                                    <h3 class="level-title">Python & Airflow / Celery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Programming in Python."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <h3 class="level-title">Python & Airflow / Celery<span class="level-label"
+                                            data-toggle="tooltip" data-placement="left" data-animation="true"
+                                            title="Programming in Python."><i class="fas fa-info-circle"></i>Pro</span>
+                                    </h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="95%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
+                                        </div>
+                                    </div><!--//level-bar-->
                                 </div><!--//item-->
-                                
+
                                 <div class="item">
-                                    <h3 class="level-title">Kubernetes<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="K8 cli usage, pod management, and deployment."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <h3 class="level-title">Kubernetes<span class="level-label" data-toggle="tooltip"
+                                            data-placement="left" data-animation="true"
+                                            title="K8 cli usage, pod management, and deployment."><i
+                                                class="fas fa-info-circle"></i>Pro</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="85%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
+                                        </div>
+                                    </div><!--//level-bar-->
                                 </div><!--//item-->
-                                
+
                                 <div class="item">
-                                    <h3 class="level-title">CI/CD<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Continuous Integration and Continuous Delivery"><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <h3 class="level-title">CI/CD<span class="level-label" data-toggle="tooltip"
+                                            data-placement="left" data-animation="true"
+                                            title="Continuous Integration and Continuous Delivery"><i
+                                                class="fas fa-info-circle"></i>Pro</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
+                                        </div>
+                                    </div><!--//level-bar-->
                                 </div><!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">SQL<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="SQL usage, optimization, management and queries."><i class="fas fa-info-circle"></i>Intermediate</span></h3>
+                                    <h3 class="level-title">SQL<span class="level-label" data-toggle="tooltip"
+                                            data-placement="left" data-animation="true"
+                                            title="SQL usage, optimization, management and queries."><i
+                                                class="fas fa-info-circle"></i>Intermediate</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
+                                        </div>
+                                    </div><!--//level-bar-->
                                 </div><!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">Golang<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Executables and user interface applications."><i class="fas fa-info-circle"></i>Intermediate</span></h3>
+                                    <h3 class="level-title">Golang<span class="level-label" data-toggle="tooltip"
+                                            data-placement="left" data-animation="true"
+                                            title="Executables and user interface applications."><i
+                                                class="fas fa-info-circle"></i>Intermediate</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="60%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
+                                        </div>
+                                    </div><!--//level-bar-->
                                 </div><!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">Svelt<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Svelt"><i class="fas fa-info-circle"></i>Beginner</span></h3>
+                                    <h3 class="level-title">Svelt<span class="level-label" data-toggle="tooltip"
+                                            data-placement="left" data-animation="true" title="Svelt"><i
+                                                class="fas fa-info-circle"></i>Beginner</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="45%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
+                                        </div>
+                                    </div><!--//level-bar-->
                                 </div><!--//item-->
-                            </div>              
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
+                            </div>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
                 </aside><!--//section-->
-                
-                
+
+
                 <aside class="education aside section">
                     <div class="section-inner">
                         <h2 class="heading">Education</h2>
                         <div class="content">
-                            <div class="item">                      
+                            <div class="item">
                                 <h3 class="title"><i class="fas fa-graduation-cap"></i> BS Computer Science</h3>
-                                <h4 class="university">University of Minnesota - Duluth <span class="year">(2016-2020)</span></h4>
+                                <h4 class="university">University of Minnesota - Duluth <span
+                                        class="year">(2016-2020)</span></h4>
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title"><i class="fas fa-graduation-cap"></i> Minor Mathmatics</h3>
-                                <h4 class="university">University of Minnesota - Duluth <span class="year">(2016-2020)</span></h4>
+                                <h4 class="university">University of Minnesota - Duluth <span
+                                        class="year">(2016-2020)</span></h4>
                             </div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -247,7 +363,9 @@
                     <div class="section-inner">
                         <h2 class="heading">Certifications</h2>
                         <div class="content">
-                            <div class="item" data-iframe-width="100%" data-iframe-height="246px" data-share-badge-id="d13b081c-c5f0-4cf5-927a-667fddc1236e" data-share-badge-host="https://www.credly.com"></div><!--//item-->
+                            <div class="item" data-iframe-width="100%" data-iframe-height="246px"
+                                data-share-badge-id="d13b081c-c5f0-4cf5-927a-667fddc1236e"
+                                data-share-badge-host="https://www.credly.com"></div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
@@ -257,37 +375,48 @@
                         <h2 class="heading">Testimonials</h2>
                         <div class="content">
                             <div class="item">
-                                <blockquote class="quote">                                  
-                                    <p><i class="fas fa-quote-left"></i>I first met Brandon when he was a member of an FRC robotics team that I was coaching. Since then I have worked with Brandon Moe for four years. He is one of the most driven individuals I have ever worked with. When you assign a project and a deadline to Brandon, the job gets done. His knowledge of computers and programming is way beyond his years. If Brandon doesn't know the answer to a problem, he digs in and does the research until he finds the answer (no spoon feeding or hand holding required). I would personally recommend Brandon to any future employer.</p>
-                                </blockquote>                
-                                <p class="source"><span class="name">Todd Bolzer</span><br /><span class="title">Norwesco</span></p>                                                             
+                                <blockquote class="quote">
+                                    <p><i class="fas fa-quote-left"></i>I first met Brandon when he was a member of an
+                                        FRC robotics team that I was coaching. Since then I have worked with Brandon Moe
+                                        for four years. He is one of the most driven individuals I have ever worked
+                                        with. When you assign a project and a deadline to Brandon, the job gets done.
+                                        His knowledge of computers and programming is way beyond his years. If Brandon
+                                        doesn't know the answer to a problem, he digs in and does the research until he
+                                        finds the answer (no spoon feeding or hand holding required). I would personally
+                                        recommend Brandon to any future employer.</p>
+                                </blockquote>
+                                <p class="source"><span class="name">Todd Bolzer</span><br /><span
+                                        class="title">Norwesco</span></p>
                             </div><!--//item-->
-                            
-                            <p><a class="more-link" href="https://www.linkedin.com/in/brandonamoe/" target="_blank"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
-                            
+
+                            <p><a class="more-link" href="https://www.linkedin.com/in/brandonamoe/" target="_blank"><i
+                                        class="fas fa-external-link-alt"></i>More on Linkedin</a></p>
+
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
 
-            </div><!--//secondary-->    
+            </div><!--//secondary-->
         </div><!--//row-->
     </div><!--//masonry-->
-    
-    <!-- ******FOOTER****** --> 
+
+    <!-- ******FOOTER****** -->
     <footer class="footer">
         <div class="container text-center">
-                <small class="copyright">© Copyright <script>document.write(/\d{4}/.exec(Date())[0])</script> Brandon Moe</small>
+            <small class="copyright">© Copyright
+                <script>document.write(/\d{4}/.exec(Date())[0])</script> Brandon Moe
+            </small>
         </div><!--//container-->
     </footer><!--//footer-->
- 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/popper.min.js"></script> 
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" src="assets/js/jquery.rss.min.js"></script> 
-    <script type="text/javascript" async src="assets/js/credly.js"></script> 
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
-</body>
-</html> 
 
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.rss.min.js"></script>
+    <script type="text/javascript" async src="assets/js/credly.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
